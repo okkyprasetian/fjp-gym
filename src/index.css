@@ -212,7 +212,7 @@ a {
   height: 768px;
   display: flex;
   align-items: center;
-  padding: 10%;
+  padding: 0 10%;
 }
 
 .about-left {
@@ -342,5 +342,20 @@ a {
 
   #offer p {
     margin-bottom: 2.5rem;
+  }
+
+  /* == ABOUT == */
+  #about {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+    padding: 0;
   }
 }
