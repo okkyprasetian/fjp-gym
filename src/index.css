@@ -51,6 +51,12 @@ a {
   font-weight: bold;
 }
 
+.btn:hover {
+  background-color: whitesmoke;
+  color: red;
+  cursor: pointer;
+}
+
 
 /* === HEADER === */
 #header {
@@ -62,6 +68,10 @@ a {
   width: 100%;
   padding: 0 15%;
   z-index: 5;
+}
+
+#header:hover {
+  box-shadow: 3px 3px 30px 10px rgba(255, 0, 0, 0.5);
 }
 
 .parts {
@@ -113,6 +123,10 @@ a {
 .hl-bottom {
   text-transform: capitalize;
   margin-bottom: 2rem;
+}
+
+.headline * {
+  text-shadow: 0 0 4rem rgba(255, 0, 0, 1);
 }
 
 .hl-join {
@@ -221,6 +235,12 @@ a {
   margin-bottom: 2rem;
 }
 
+.about-readmore {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+}
+
 /* === FORM === */
 #contact {
   height: 760px;
@@ -263,7 +283,7 @@ a {
 }
 
 .btn-form:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: red;
   cursor: pointer;
 }
