@@ -181,10 +181,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25%;
+  padding: 0 25%;
   height: 768px;
   background-image: url('../public/images/offer.png');
   z-index: 0;
+}
+
+#offer * {
+  text-shadow: 0 0 4rem rgba(255, 0, 0, 1);
 }
 
 #offer h2 {
@@ -289,6 +293,8 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
+  /* == HEADER ==  */
   #header {
     height: 3rem;
     padding: 0 5%;
@@ -300,5 +306,41 @@ a {
 
   .parts {
     display: none;
+  }
+
+  /* == HOME == */
+  #home {
+    padding: 0 20%
+  }
+
+  .hl-top {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hl-mid {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .hl-bottom {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  /* == OFFER == */
+  #offer {
+    padding: 0 20%;
+    text-align: center;
+  }
+
+  #offer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #offer p {
+    margin-bottom: 2.5rem;
   }
 }
