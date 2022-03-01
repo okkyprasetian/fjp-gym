@@ -1,8 +1,10 @@
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="logo"></div>
+      <div id="header">
+        <div className="logo">
+          <img src="./images/logo.png" alt="gym" className="logo-img" />
+        </div>
         <ul className="parts">
           <li className="part">Header</li>
           <li className="part">Features</li>
@@ -12,7 +14,6 @@ function App() {
         </ul>
       </div>
       <div id="home">
-        <div className="background"></div>
         <div className="headline">
           <h3 className="hl-top">STEP UP YOUR</h3>
           <h1 className="hl-mid"><span className="text-red">FITNESS</span> WITH US</h1>
@@ -23,45 +24,48 @@ function App() {
 
       <div id="feature">
         <h2>FEATURES</h2>
-        <div className="card">
-          <div className="fc-logo"></div>
-          <div className="fc-text">
-            <h3>WeightLifting</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorum explicabo veritatis aut cupiditate consequatur sapiente harum asperiores, unde nobis!</p>
+        <div className="cards">
+          <div className="card">
+            <img src="./images/1.svg" alt="logo" className="fc-logo" />
+            <div className="fc-text">
+              <h3>WeightLifting</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, hic!</p>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <div className="fc-logo"></div>
-          <div className="fc-text">
-            <h3>WeightLifting</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorum explicabo veritatis aut cupiditate consequatur sapiente harum asperiores, unde nobis!</p>
+          <div className="card">
+            <img src="./images/2.svg" alt="logo" className="fc-logo" />
+            <div className="fc-text">
+              <h3>Specific Muscle</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, hic!</p>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <div className="fc-logo"></div>
-          <div className="fc-text">
-            <h3>WeightLifting</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorum explicabo veritatis aut cupiditate consequatur sapiente harum asperiores, unde nobis!</p>
+          <div className="card">
+            <img src="./images/3.svg" alt="logo" className="fc-logo" />
+            <div className="fc-text">
+              <h3>Flex Your Muscle</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, hic!</p>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <div className="fc-logo"></div>
-          <div className="fc-text">
-            <h3>WeightLifting</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorum explicabo veritatis aut cupiditate consequatur sapiente harum asperiores, unde nobis!</p>
+          <div className="card">
+            <img src="./images/4.svg" alt="logo" className="fc-logo" />
+            <div className="fc-text">
+              <h3>Cardio Exercise</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, hic!</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div id="offer">
-        <div className="background"></div>
         <h2>A BIG OFFER FOR THIS SUMMER</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex sint numquam ea, deleniti assumenda neque voluptatem fugit aliquid deserunt itaque.</p>
         <button className="btn offer-join">JOIN NOW</button>
       </div>
 
       <div id="about">
-        <div className="about-img"></div>
+        <div className="about-left">
+          <img src="./images/about.png" alt="about" className="about-img" />
+        </div>
         <div className="about-text">
           <h2>LEARN MORE ABOUT US</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aperiam architecto quia eius deserunt provident dicta voluptatem illo impedit incidunt hic, beatae saepe magnam nesciunt atque dignissimos laudantium sed voluptatibus.</p>
