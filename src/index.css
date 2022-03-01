@@ -62,7 +62,13 @@ a {
 }
 
 .part {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.part a:hover {
+  color: red;
 }
 
 /* === HOME === */
