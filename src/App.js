@@ -57,7 +57,7 @@ function App() {
       </div>
 
       <div id="offer">
-        <h2>A BIG OFFER FOR THIS SUMMER</h2>
+        <h2>A BIG <span className="text-red">OFFER </span> FOR THIS SUMMER</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex sint numquam ea, deleniti assumenda neque voluptatem fugit aliquid deserunt itaque.</p>
         <button className="btn offer-join">JOIN NOW</button>
       </div>

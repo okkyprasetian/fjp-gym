@@ -44,6 +44,13 @@ a {
   width: 100%;
 }
 
+.btn {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
 
 /* === HEADER === */
 #header {
@@ -82,7 +89,36 @@ a {
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
   z-index: 1;
+}
+
+.hl-top {
+  font-size: 3rem;
+}
+
+.hl-mid {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.text-red {
+  color: red;
+}
+
+.hl-bottom {
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.hl-join {
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
 }
 
 /* === FEATURES === */
@@ -131,9 +167,26 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 25%;
   height: 768px;
   background-image: url('../public/images/offer.png');
   z-index: 0;
+}
+
+#offer h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#offer p {
+  margin-bottom: 2rem;
+}
+
+.offer-join {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
 }
 
 /* === ABOUT === */
@@ -141,13 +194,11 @@ a {
   height: 768px;
   display: flex;
   align-items: center;
-  border: solid 1px;
   padding: 10%;
 }
 
 .about-left {
   width: 40%;
-  border: solid 1px;
 }
 
 .about-img {
@@ -157,8 +208,17 @@ a {
 .about-text {
   width: 60%;
   height: 100%;
-  border: solid 1px;
   padding: 7rem;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 2rem;
 }
 
 /* === FORM === */
