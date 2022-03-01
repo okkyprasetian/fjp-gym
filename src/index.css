@@ -35,6 +35,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .background-img {
   width: 100%;
 }
@@ -75,7 +80,7 @@ ul {
 }
 
 /* === FEATURES === */
-#feature {
+#features {
   height: 768px;
   display: flex;
   flex-direction: column;
@@ -142,4 +147,38 @@ ul {
   height: 100%;
   border: solid 1px;
   padding: 7rem;
+}
+
+/* === FORM === */
+#contact {
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+}
+
+.form * {
+  background-color: rgb(24, 23, 23);
+  color: white;
+  margin: 0.3rem 0;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+#contact .form textarea {
+  height: 12rem;
+}
+
+.btn-form {
+  background-color: red;
 }

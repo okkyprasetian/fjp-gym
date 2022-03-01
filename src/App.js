@@ -6,11 +6,11 @@ function App() {
           <img src="./images/logo.png" alt="gym" className="logo-img" />
         </div>
         <ul className="parts">
-          <li className="part">Header</li>
-          <li className="part">Features</li>
-          <li className="part">Offer</li>
-          <li className="part">About</li>
-          <li className="part">Contact</li>
+          <li className="part"><a href="#home">Home</a></li>
+          <li className="part"><a href="#features">Features</a></li>
+          <li className="part"><a href="#offer">Offer</a></li>
+          <li className="part"><a href="#about">About</a></li>
+          <li className="part"><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div id="home">
@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
 
-      <div id="feature">
+      <div id="features">
         <h2>FEATURES</h2>
         <div className="cards">
           <div className="card">
@@ -75,7 +75,12 @@ function App() {
 
       <div id="contact">
         <h2>CONTACT US</h2>
-
+        <form className="form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea name="message" id="message" placeholder="This place is for your massage :D"></textarea>
+          <button className="btn-form" type="submit">SUBMIT</button>
+        </form>
       </div>
 
     </div>
