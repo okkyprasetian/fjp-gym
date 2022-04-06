@@ -344,6 +344,34 @@ a {
     margin-bottom: 4rem;
   }
 
+  /* == FEATURES == */
+  #features{
+    height: auto;
+    padding: 10vh 0;
+  }
+
+  #features h2{
+    margin-bottom: 3rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 80%;
+    margin: 3rem 0;
+  }
+
+  .fc-logo{
+    margin-bottom: 1.5rem;
+  }
+
+  .card h3{
+    margin-bottom: 1rem;
+  }
+
   /* == OFFER == */
   #offer {
     padding: 0 20%;
