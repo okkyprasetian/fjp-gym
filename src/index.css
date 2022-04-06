@@ -253,7 +253,7 @@ a {
   border-radius: 0.3rem;
 }
 
-/* === FORM === */
+/* === CONTACT === */
 #contact {
   height: 760px;
   display: flex;
@@ -374,17 +374,20 @@ a {
 
   /* == OFFER == */
   #offer {
-    padding: 0 20%;
+    padding: 0 9%;
     text-align: center;
   }
 
   #offer h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    margin-bottom: 2rem;
   }
 
   #offer p {
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
   }
 
   /* == ABOUT == */
@@ -401,4 +404,34 @@ a {
     width: 100%;
     padding: 0;
   }
+
+  .about-text h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-text p{
+    font-size: 0.9rem;
+  }
+
+  /* == CONTACT == */
+  #contact{
+    padding: 0 10%;
+    justify-content: center;
+  }
+
+  #contact h2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .form{
+    margin-bottom: 4rem;
+  }
+
+  .form *{
+    height: 2rem;
+    font-size: 0.9rem;
+  }
+
 }
